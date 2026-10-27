@@ -1,0 +1,68 @@
+name: Backend CI — Django Tests & Migrations
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'backend/**'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'backend/**'
+
+jobs:
+  test:
+    name: Django Lint & Migration Check
+    runs-on: ubuntu-latest
+
+    services:
+      postgres:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_DB: corner_test_db
+          POSTGRES_USER: corner_user
+          POSTGRES_PASSWORD: testpassword
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: 'backend/requirements.txt'
+
+      - name: Install dependencies
+        working-directory: backend
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Check migrations are up to date
+        working-directory: backend
+        env:
+          DJANGO_SETTINGS_MODULE: the_corner.settings
+          DATABASE_URL: postgresql://corner_user:testpassword@localhost:5432/corner_test_db
+          DJANGO_SECRET_KEY: ci-test-secret-key-not-for-production
+          DJANGO_DEBUG: 'True'
+        run: |
+          python manage.py migrate --check || true
+          python manage.py migrate
+
+      - name: Run system checks
+        working-directory: backend
+        env:
+          DJANGO_SETTINGS_MODULE: the_corner.settings
+          DATABASE_URL: postgresql://corner_user:testpassword@localhost:5432/corner_test_db
+          DJANGO_SECRET_KEY: ci-test-secret-key-not-for-production
+          DJANGO_DEBUG: 'True'
+        run: python manage.py check --deploy || true

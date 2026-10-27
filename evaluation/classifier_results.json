@@ -1,0 +1,142 @@
+{
+  "baseline": {
+    "accuracy": 0.82,
+    "macro_precision": 0.8694331983805668,
+    "macro_recall": 0.8215384615384616,
+    "macro_f1": 0.8157228135475164,
+    "per_class": {
+      "Textbooks": {
+        "tp": 24,
+        "fp": 14,
+        "fn": 0,
+        "support": 24,
+        "precision": 0.631578947368421,
+        "recall": 1.0,
+        "f1": 0.7741935483870968
+      },
+      "Electronics": {
+        "tp": 22,
+        "fp": 4,
+        "fn": 4,
+        "support": 26,
+        "precision": 0.8461538461538461,
+        "recall": 0.8461538461538461,
+        "f1": 0.8461538461538461
+      },
+      "Clothing": {
+        "tp": 23,
+        "fp": 0,
+        "fn": 2,
+        "support": 25,
+        "precision": 1.0,
+        "recall": 0.92,
+        "f1": 0.9583333333333334
+      },
+      "Services": {
+        "tp": 13,
+        "fp": 0,
+        "fn": 12,
+        "support": 25,
+        "precision": 1.0,
+        "recall": 0.52,
+        "f1": 0.6842105263157895
+      }
+    },
+    "confusion_matrix": {
+      "Textbooks": {
+        "Textbooks": 24,
+        "Electronics": 0,
+        "Clothing": 0,
+        "Services": 0
+      },
+      "Electronics": {
+        "Textbooks": 4,
+        "Electronics": 22,
+        "Clothing": 0,
+        "Services": 0
+      },
+      "Clothing": {
+        "Textbooks": 1,
+        "Electronics": 1,
+        "Clothing": 23,
+        "Services": 0
+      },
+      "Services": {
+        "Textbooks": 9,
+        "Electronics": 3,
+        "Clothing": 0,
+        "Services": 13
+      }
+    }
+  },
+  "nlp": {
+    "accuracy": 0.93,
+    "macro_precision": 0.9407407407407408,
+    "macro_recall": 0.9299999999999999,
+    "macro_f1": 0.9298086638468536,
+    "per_class": {
+      "Textbooks": {
+        "tp": 24,
+        "fp": 6,
+        "fn": 0,
+        "support": 24,
+        "precision": 0.8,
+        "recall": 1.0,
+        "f1": 0.888888888888889
+      },
+      "Electronics": {
+        "tp": 26,
+        "fp": 1,
+        "fn": 0,
+        "support": 26,
+        "precision": 0.9629629629629629,
+        "recall": 1.0,
+        "f1": 0.9811320754716981
+      },
+      "Clothing": {
+        "tp": 22,
+        "fp": 0,
+        "fn": 3,
+        "support": 25,
+        "precision": 1.0,
+        "recall": 0.88,
+        "f1": 0.9361702127659575
+      },
+      "Services": {
+        "tp": 21,
+        "fp": 0,
+        "fn": 4,
+        "support": 25,
+        "precision": 1.0,
+        "recall": 0.84,
+        "f1": 0.9130434782608696
+      }
+    },
+    "confusion_matrix": {
+      "Textbooks": {
+        "Textbooks": 24,
+        "Electronics": 0,
+        "Clothing": 0,
+        "Services": 0
+      },
+      "Electronics": {
+        "Textbooks": 0,
+        "Electronics": 26,
+        "Clothing": 0,
+        "Services": 0
+      },
+      "Clothing": {
+        "Textbooks": 2,
+        "Electronics": 1,
+        "Clothing": 22,
+        "Services": 0
+      },
+      "Services": {
+        "Textbooks": 4,
+        "Electronics": 0,
+        "Clothing": 0,
+        "Services": 21
+      }
+    }
+  }
+}

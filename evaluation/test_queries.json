@@ -1,0 +1,824 @@
+[
+  {
+    "id": "Q01",
+    "query": "Casio fx-991EX ClassWiz",
+    "type": "literal",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      1
+    ],
+    "notes": "Exact model scientific calculator"
+  },
+  {
+    "id": "Q02",
+    "query": "Commercial Law in Zimbabwe Madhuku",
+    "type": "literal",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      2
+    ],
+    "notes": "Exact prescribed law textbook"
+  },
+  {
+    "id": "Q03",
+    "query": "Lenovo ThinkPad T480",
+    "type": "literal",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      28
+    ],
+    "notes": "Exact student workhorse laptop"
+  },
+  {
+    "id": "Q04",
+    "query": "GZU Varsity Heritage Bomber Jacket",
+    "type": "literal",
+    "category": "Clothing",
+    "max_price": null,
+    "relevant_ids": [
+      51
+    ],
+    "notes": "Official university merch jacket"
+  },
+  {
+    "id": "Q05",
+    "query": "Dorm Printing Binding Document Scanning",
+    "type": "literal",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      76
+    ],
+    "notes": "Dorm laser printing service"
+  },
+  {
+    "id": "Q06",
+    "query": "Apple MacBook Air M1",
+    "type": "literal",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      31
+    ],
+    "notes": "Exact Apple laptop model"
+  },
+  {
+    "id": "Q07",
+    "query": "Constitutional Law of Zimbabwe Geoff Feltoe",
+    "type": "literal",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      7
+    ],
+    "notes": "Prescribed constitutional law textbook"
+  },
+  {
+    "id": "Q08",
+    "query": "JBL Flip 5 Bluetooth Speaker",
+    "type": "literal",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      37
+    ],
+    "notes": "Portable waterproof speaker"
+  },
+  {
+    "id": "Q09",
+    "query": "Nike Air Force 1 Triple White",
+    "type": "literal",
+    "category": "Clothing",
+    "max_price": null,
+    "relevant_ids": [
+      55
+    ],
+    "notes": "Exact shoe model"
+  },
+  {
+    "id": "Q10",
+    "query": "Hardcover Thesis Dissertation Gold Foil Binding",
+    "type": "literal",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      77
+    ],
+    "notes": "Library standard thesis binding"
+  },
+  {
+    "id": "Q11",
+    "query": "Adidas Samba OG",
+    "type": "literal",
+    "category": "Clothing",
+    "max_price": null,
+    "relevant_ids": [
+      54
+    ],
+    "notes": "Retro sneakers"
+  },
+  {
+    "id": "Q12",
+    "query": "Texas Instruments TI-84 Graphing Calculator",
+    "type": "literal",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      27
+    ],
+    "notes": "Graphing calculator"
+  },
+  {
+    "id": "Q13",
+    "query": "Human Anatomy Physiology Marieb",
+    "type": "literal",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      13
+    ],
+    "notes": "Medical anatomy textbook"
+  },
+  {
+    "id": "Q14",
+    "query": "Knotless Box Braids",
+    "type": "literal",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      78
+    ],
+    "notes": "Hair styling service"
+  },
+  {
+    "id": "Q15",
+    "query": "Introduction to Algorithms CLRS",
+    "type": "literal",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      11
+    ],
+    "notes": "Algorithms textbook"
+  },
+  {
+    "id": "Q16",
+    "query": "something warm for winter",
+    "type": "semantic_synonym",
+    "category": "Clothing",
+    "max_price": null,
+    "relevant_ids": [
+      51,
+      52,
+      53,
+      61,
+      69
+    ],
+    "notes": "Intent: Winter clothing (bomber, fleece hoodie, puffer jacket, beanie, scarf)"
+  },
+  {
+    "id": "Q17",
+    "query": "cheap calculator for engineering",
+    "type": "semantic_synonym",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      1,
+      26,
+      50
+    ],
+    "notes": "Intent: Scientific calculators suited for engineering/math (Casio, Sharp)"
+  },
+  {
+    "id": "Q18",
+    "query": "keep cold drinks in hostel room",
+    "type": "semantic_synonym",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      32
+    ],
+    "notes": "Intent: Mini bar fridge for dorm room"
+  },
+  {
+    "id": "Q19",
+    "query": "prepare food in campus residence",
+    "type": "semantic_synonym",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      33,
+      34
+    ],
+    "notes": "Intent: Cooking appliances (2-plate stove, kettle)"
+  },
+  {
+    "id": "Q20",
+    "query": "device to charge phone during load shedding",
+    "type": "semantic_synonym",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      35,
+      36
+    ],
+    "notes": "Intent: High capacity external battery power banks"
+  },
+  {
+    "id": "Q21",
+    "query": "formal outfit for faculty presentation",
+    "type": "semantic_synonym",
+    "category": "Clothing",
+    "max_price": null,
+    "relevant_ids": [
+      56,
+      57,
+      58,
+      59,
+      73
+    ],
+    "notes": "Intent: Formal presentation wear (suit, blazer, dress shirt, oxford shoes, chinos)"
+  },
+  {
+    "id": "Q22",
+    "query": "plaiting hair neat hairstyles for ladies",
+    "type": "semantic_synonym",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      78,
+      79
+    ],
+    "notes": "Intent: Female campus hair stylists (knotless braids, goddess braids)"
+  },
+  {
+    "id": "Q23",
+    "query": "fix broken laptop display or cracked screen",
+    "type": "semantic_synonym",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      80
+    ],
+    "notes": "Intent: Laptop hardware and screen repair service"
+  },
+  {
+    "id": "Q24",
+    "query": "computer infected with virus running slow",
+    "type": "semantic_synonym",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      81
+    ],
+    "notes": "Intent: Windows reinstallation, virus removal, SSD upgrade service"
+  },
+  {
+    "id": "Q25",
+    "query": "first year accounting study materials",
+    "type": "semantic_synonym",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      3,
+      9,
+      23
+    ],
+    "notes": "Intent: Financial & management accounting textbooks and exam packs"
+  },
+  {
+    "id": "Q26",
+    "query": "help with final year thesis data analysis and SPSS",
+    "type": "semantic_synonym",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      83
+    ],
+    "notes": "Intent: Statistics and data analysis tutoring"
+  },
+  {
+    "id": "Q27",
+    "query": "study guide for calculating derivatives and integrals",
+    "type": "semantic_synonym",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      5
+    ],
+    "notes": "Intent: Calculus textbook (James Stewart)"
+  },
+  {
+    "id": "Q28",
+    "query": "clean kicks dirty sneakers revival",
+    "type": "semantic_synonym",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      94
+    ],
+    "notes": "Intent: Sneaker cleaning and restoration service"
+  },
+  {
+    "id": "Q29",
+    "query": "quiet study in crowded library without noise",
+    "type": "semantic_synonym",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      38,
+      39
+    ],
+    "notes": "Intent: Noise cancelling headphones & earbuds (Sony, AirPods Pro)"
+  },
+  {
+    "id": "Q30",
+    "query": "graduation pictures portrait photoshoot on campus",
+    "type": "semantic_synonym",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      87
+    ],
+    "notes": "Intent: Campus photographer"
+  },
+  {
+    "id": "Q31",
+    "query": "carry laptop and books to lectures safely",
+    "type": "semantic_synonym",
+    "category": "Clothing",
+    "max_price": null,
+    "relevant_ids": [
+      62
+    ],
+    "notes": "Intent: Waterproof campus commuter backpack"
+  },
+  {
+    "id": "Q32",
+    "query": "programming course beginner guide",
+    "type": "semantic_synonym",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      11,
+      12
+    ],
+    "notes": "Intent: Python and algorithm programming textbooks"
+  },
+  {
+    "id": "Q33",
+    "query": "fresh haircut and clean fade in hostel",
+    "type": "semantic_synonym",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      100
+    ],
+    "notes": "Intent: Campus barber service"
+  },
+  {
+    "id": "Q34",
+    "query": "shorten wide trousers suit alteration",
+    "type": "semantic_synonym",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      95
+    ],
+    "notes": "Intent: Campus tailoring service"
+  },
+  {
+    "id": "Q35",
+    "query": "dissertation printed copies deadline rush",
+    "type": "semantic_synonym",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      76,
+      77,
+      86
+    ],
+    "notes": "Intent: Printing, typing, and dissertation binding services"
+  },
+  {
+    "id": "Q36",
+    "query": "bedside reading light for night study",
+    "type": "semantic_synonym",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      46
+    ],
+    "notes": "Intent: LED desk study lamp with clamp"
+  },
+  {
+    "id": "Q37",
+    "query": "plug multiple gadgets into one wall socket",
+    "type": "semantic_synonym",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      47
+    ],
+    "notes": "Intent: Surge protector power extension strip"
+  },
+  {
+    "id": "Q38",
+    "query": "mobile internet hotspot for assignments",
+    "type": "semantic_synonym",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      49
+    ],
+    "notes": "Intent: Portable 4G LTE Wi-Fi router"
+  },
+  {
+    "id": "Q39",
+    "query": "nursing clinical practice study manual",
+    "type": "semantic_synonym",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      14
+    ],
+    "notes": "Intent: Nursing textbook (Potter & Perry)"
+  },
+  {
+    "id": "Q40",
+    "query": "music lessons learn guitar in dorms",
+    "type": "semantic_synonym",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      91
+    ],
+    "notes": "Intent: Beginner acoustic guitar lessons"
+  },
+  {
+    "id": "Q41",
+    "query": "laptop under $250",
+    "type": "price_constrained",
+    "category": "Electronics",
+    "max_price": 250,
+    "relevant_ids": [
+      28,
+      29,
+      30
+    ],
+    "notes": "Intent: ThinkPad T480 ($210), EliteBook G5 ($240), Dell 7490 ($180) all <= $250"
+  },
+  {
+    "id": "Q42",
+    "query": "laptop under $200",
+    "type": "price_constrained",
+    "category": "Electronics",
+    "max_price": 200,
+    "relevant_ids": [
+      30
+    ],
+    "notes": "Intent: Dell Latitude 7490 ($180) only laptop <= $200"
+  },
+  {
+    "id": "Q43",
+    "query": "scientific calculator under $15",
+    "type": "price_constrained",
+    "category": "Electronics",
+    "max_price": 15,
+    "relevant_ids": [
+      50
+    ],
+    "notes": "Intent: Casio fx-82MS ($12) is the only scientific calculator <= $15"
+  },
+  {
+    "id": "Q44",
+    "query": "textbook under $10",
+    "type": "price_constrained",
+    "category": "Textbooks",
+    "max_price": 10,
+    "relevant_ids": [
+      19,
+      20,
+      23
+    ],
+    "notes": "Intent: Nervous Conditions ($8), Things Fall Apart ($7), Past Papers ($10)"
+  },
+  {
+    "id": "Q45",
+    "query": "winter warm clothes under $20",
+    "type": "price_constrained",
+    "category": "Clothing",
+    "max_price": 20,
+    "relevant_ids": [
+      52,
+      60,
+      61,
+      69
+    ],
+    "notes": "Intent: Fleece hoodie ($18), joggers ($10), beanies ($6), scarf ($8)"
+  },
+  {
+    "id": "Q46",
+    "query": "student service under $5",
+    "type": "price_constrained",
+    "category": "Services",
+    "max_price": 5,
+    "relevant_ids": [
+      76,
+      86,
+      89,
+      94,
+      95,
+      98,
+      100
+    ],
+    "notes": "Intent: Printing ($2), typing ($5), CV ($5), sneaker wash ($5), tailoring ($4), barber ($4)"
+  },
+  {
+    "id": "Q47",
+    "query": "power bank under $30",
+    "type": "price_constrained",
+    "category": "Electronics",
+    "max_price": 30,
+    "relevant_ids": [
+      35
+    ],
+    "notes": "Intent: Anker 20000mAh ($28) is <= $30"
+  },
+  {
+    "id": "Q48",
+    "query": "sneakers kicks under $30",
+    "type": "price_constrained",
+    "category": "Clothing",
+    "max_price": 30,
+    "relevant_ids": [
+      71
+    ],
+    "notes": "Intent: Converse All Star ($22) <= $30"
+  },
+  {
+    "id": "Q49",
+    "query": "tutoring lesson under $8",
+    "type": "price_constrained",
+    "category": "Services",
+    "max_price": 8,
+    "relevant_ids": [
+      84,
+      85,
+      91,
+      92,
+      93
+    ],
+    "notes": "Intent: Law tutoring ($8), Math ($7), Guitar ($6), Physics ($7), Accounting ($8)"
+  },
+  {
+    "id": "Q50",
+    "query": "hair styling under $16",
+    "type": "price_constrained",
+    "category": "Services",
+    "max_price": 16,
+    "relevant_ids": [
+      78
+    ],
+    "notes": "Intent: Knotless braids ($15) is <= $16"
+  },
+  {
+    "id": "Q51",
+    "query": "law textbook under $18",
+    "type": "price_constrained",
+    "category": "Textbooks",
+    "max_price": 18,
+    "relevant_ids": [
+      2,
+      8,
+      10
+    ],
+    "notes": "Intent: Madhuku Commercial Law ($18), Contract Law ($16), Company Law ($17)"
+  },
+  {
+    "id": "Q52",
+    "query": "dorm cooking appliance under $15",
+    "type": "price_constrained",
+    "category": "Electronics",
+    "max_price": 15,
+    "relevant_ids": [
+      34
+    ],
+    "notes": "Intent: Stainless steel electric kettle ($10)"
+  },
+  {
+    "id": "Q53",
+    "query": "laptop charger under $30",
+    "type": "price_constrained",
+    "category": "Electronics",
+    "max_price": 30,
+    "relevant_ids": [
+      45
+    ],
+    "notes": "Intent: Baseus 65W GaN laptop fast charger ($25)"
+  },
+  {
+    "id": "Q54",
+    "query": "flash drive under $10",
+    "type": "price_constrained",
+    "category": "Electronics",
+    "max_price": 10,
+    "relevant_ids": [
+      42
+    ],
+    "notes": "Intent: Kingston 64GB OTG flash drive ($9)"
+  },
+  {
+    "id": "Q55",
+    "query": "formal presentation wear under $15",
+    "type": "price_constrained",
+    "category": "Clothing",
+    "max_price": 15,
+    "relevant_ids": [
+      58,
+      63,
+      73
+    ],
+    "notes": "Intent: Dress shirt ($12), leather belt ($8), chino pants ($13)"
+  },
+  {
+    "id": "Q56",
+    "query": "LLB case law precedent",
+    "type": "domain_concept",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      2,
+      7,
+      8,
+      10
+    ],
+    "notes": "Intent: Law textbooks (Madhuku, Constitutional, Contract, Company law)"
+  },
+  {
+    "id": "Q57",
+    "query": "B.Com finance and management accounting",
+    "type": "domain_concept",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      3,
+      9,
+      15,
+      23
+    ],
+    "notes": "Intent: B.Com textbooks and exam packs"
+  },
+  {
+    "id": "Q58",
+    "query": "STEM physics lab mechanics",
+    "type": "domain_concept",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      6,
+      22,
+      92
+    ],
+    "notes": "Intent: Physics textbooks, Engineering mechanics, Physics tutorials"
+  },
+  {
+    "id": "Q59",
+    "query": "CS coding data science python algorithms",
+    "type": "domain_concept",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      11,
+      12,
+      24,
+      99
+    ],
+    "notes": "Intent: Computer science textbooks and coding mentorship"
+  },
+  {
+    "id": "Q60",
+    "query": "med school pre-med biological science",
+    "type": "domain_concept",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      13,
+      14,
+      17,
+      25
+    ],
+    "notes": "Intent: Anatomy, Nursing, Biochemistry, Microbiology"
+  },
+  {
+    "id": "Q61",
+    "query": "Mashava dorm cooking stove fridge",
+    "type": "domain_concept",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      32,
+      33,
+      34
+    ],
+    "notes": "Intent: Hostels kitchen and food appliances in Mashava"
+  },
+  {
+    "id": "Q62",
+    "query": "final year dissertation research methodology",
+    "type": "domain_concept",
+    "category": "Textbooks",
+    "max_price": null,
+    "relevant_ids": [
+      21,
+      77,
+      83,
+      86
+    ],
+    "notes": "Intent: Research methodology book, binding, data analysis, formatting"
+  },
+  {
+    "id": "Q63",
+    "query": "GZU varsity campus swag gear",
+    "type": "domain_concept",
+    "category": "Clothing",
+    "max_price": null,
+    "relevant_ids": [
+      51,
+      72
+    ],
+    "notes": "Intent: Official GZU bomber jacket & rugby club jersey"
+  },
+  {
+    "id": "Q64",
+    "query": "typing word document referencing formatting",
+    "type": "domain_concept",
+    "category": "Services",
+    "max_price": null,
+    "relevant_ids": [
+      76,
+      86
+    ],
+    "notes": "Intent: Document typing, proofreading, dissertation printing"
+  },
+  {
+    "id": "Q65",
+    "query": "headphones noise cancellation earbuds",
+    "type": "domain_concept",
+    "category": "Electronics",
+    "max_price": null,
+    "relevant_ids": [
+      38,
+      39
+    ],
+    "notes": "Intent: Sony wireless headphones & Apple AirPods Pro"
+  },
+  {
+    "id": "Q66",
+    "query": "motorcycle helmet safety visor",
+    "type": "negative",
+    "category": "General",
+    "max_price": null,
+    "relevant_ids": [],
+    "notes": "Out of domain item not in catalogue (tests false positive handling)"
+  },
+  {
+    "id": "Q67",
+    "query": "electric acoustic guitar amplifier 100W",
+    "type": "negative",
+    "category": "General",
+    "max_price": null,
+    "relevant_ids": [],
+    "notes": "Amplifier hardware not listed (guitar lessons are a service, not 100W amp)"
+  },
+  {
+    "id": "Q68",
+    "query": "dorm microwave oven 800W digital",
+    "type": "negative",
+    "category": "General",
+    "max_price": null,
+    "relevant_ids": [],
+    "notes": "No microwave listed in electronics"
+  },
+  {
+    "id": "Q69",
+    "query": "pet food for dogs and cats",
+    "type": "negative",
+    "category": "General",
+    "max_price": null,
+    "relevant_ids": [],
+    "notes": "Out of catalogue domain"
+  },
+  {
+    "id": "Q70",
+    "query": "swimming goggles and scuba diving gear",
+    "type": "negative",
+    "category": "General",
+    "max_price": null,
+    "relevant_ids": [],
+    "notes": "Out of catalogue domain"
+  }
+]
